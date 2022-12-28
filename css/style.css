@@ -258,3 +258,31 @@ img {
 }
 
   
+@media screen and (max-width: 1024px) {
+
+    .nav-header {
+        width: 25rem;
+        height: 12.5rem;
+    }
+
+    #input-text,
+    #output-text {
+      width: 37.5rem;
+      height: 12.5rem;
+      font-size: 1.125rem;
+    }
+  
+    .main-btn {
+      width: 12.5rem;
+      height: 3.125rem;
+      font-size: 1.125rem;
+    }
+  
+    #warning {
+      font-size: 1rem;
+    }
+  
+    .footer{
+      gap: 1.875rem;
+    }
+  }
