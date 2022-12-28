@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/reset.css">
+        <title>Decodificador de Texto - Challenge Alura</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav-header">
+                <a href="https://www.alura.com.br" target="_blank">
+                    <img class="logo" src="./img/alura-icon.png" alt="Alura icon"></a>
+            </nav>
+        </header>
+
+        <section class="input-container">
+            <textarea id="input-text" placeholder="Digite seu texto" cols="30" rows="10"></textarea>
+            <textarea id="output-text" placeholder="Texto de saída" cols="30" rows="10" readonly></textarea>
+        </section>
+
+        <section class="main-btn">
+            <button id="crypt-btn" onclick="cryptoText()">Criptografar</button>
+            <button id="decrypt-btn" onclick="decryptoText()">Descriptografar</button>
+            <button id="copy-btn" onclick="textCopy()">Copiar</button>
+        </section>
+
+        <section class="warning">
+            <p id="warning-text">Apenas letras minúsculas e sem acento.</p>
+            <img id="img-warning" src="./img/exclamacao.png" alt="exclamation icon">
+        </section>
+
+        <footer>
+            <div class="social">
+                <a href="https://www.github.com/sheezarainbow9" target="_blank">
+                    <img src="./img/github.png" alt="github icon"></a>
+                <p>Desenvolvido por Sheezarainbow</p>
+                <a href="https://www.linkedin.com/in/sheezarainbow" target="_blank">
+                    <img src="./img/linkedin.png" alt="linkedin icon"></a>
+            </div>
+        </footer>
+
+        <script src="./scripts/script.js"></script>
+
+    </body>
+
+</html>
