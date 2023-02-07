@@ -14,6 +14,10 @@ Challenge do curso de HTML, CSS e JS da Alura+Oracle.
 
 https://sheezarainbow9.github.io/Alura-Challenge/
 
+
+> Status do Projeto: :warning:
+
+
 #challengeonedecodificador4
 
 Criar um decodificador que criptografa textos, assim será permitido trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
